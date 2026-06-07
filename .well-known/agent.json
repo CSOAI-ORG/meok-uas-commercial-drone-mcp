@@ -1,0 +1,95 @@
+{
+  "name": "meok-uas-commercial-drone-mcp",
+  "description": "Commercial drone / UAS compliance toolkit \u2014 UK CAA CAP 722, Open / Specific / Certified categories",
+  "url": "https://proofof.ai/scorecard/meok-uas-commercial-drone-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_caa_operator_authorisation",
+      "name": "Check Caa Operator Authorisation",
+      "description": "check_caa_operator_authorisation via meok-uas-commercial-drone-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_uas_open_category",
+      "name": "Check Uas Open Category",
+      "description": "check_uas_open_category via meok-uas-commercial-drone-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_uas_specific_category",
+      "name": "Check Uas Specific Category",
+      "description": "check_uas_specific_category via meok-uas-commercial-drone-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_uas_certified_category",
+      "name": "Check Uas Certified Category",
+      "description": "check_uas_certified_category via meok-uas-commercial-drone-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_remote_pilot_competence",
+      "name": "Check Remote Pilot Competence",
+      "description": "check_remote_pilot_competence via meok-uas-commercial-drone-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_far_part_107_us",
+      "name": "Check Far Part 107 Us",
+      "description": "check_far_part_107_us via meok-uas-commercial-drone-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_easa_uas_reg_2019_947",
+      "name": "Check Easa Uas Reg 2019 947",
+      "description": "check_easa_uas_reg_2019_947 via meok-uas-commercial-drone-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "prepare_caa_inspection_pack",
+      "name": "Prepare Caa Inspection Pack",
+      "description": "prepare_caa_inspection_pack via meok-uas-commercial-drone-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

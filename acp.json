@@ -1,0 +1,26 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-uas-commercial-drone-mcp",
+    "description": "Commercial drone / UAS compliance toolkit \u2014 UK CAA CAP 722, Open / Specific / Certified categories",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-uas-commercial-drone-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_caa_operator_authorisation",
+      "check_uas_open_category",
+      "check_uas_specific_category",
+      "check_uas_certified_category",
+      "check_remote_pilot_competence",
+      "check_far_part_107_us",
+      "check_easa_uas_reg_2019_947",
+      "prepare_caa_inspection_pack"
+    ]
+  }
+}

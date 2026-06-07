@@ -1,0 +1,34 @@
+name: meok-uas-commercial-drone-mcp
+description: 'Commercial drone / UAS compliance toolkit — UK CAA CAP 722, Open / Specific / Certified categories'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-uas-commercial-drone-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_caa_operator_authorisation
+  description: check caa operator authorisation
+- name: check_uas_open_category
+  description: check uas open category
+- name: check_uas_specific_category
+  description: check uas specific category
+- name: check_uas_certified_category
+  description: check uas certified category
+- name: check_remote_pilot_competence
+  description: check remote pilot competence
+- name: check_far_part_107_us
+  description: check far part 107 us
+- name: check_easa_uas_reg_2019_947
+  description: check easa uas reg 2019 947
+- name: prepare_caa_inspection_pack
+  description: prepare caa inspection pack
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

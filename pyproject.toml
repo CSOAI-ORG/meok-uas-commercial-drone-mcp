@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meok-uas-commercial-drone-mcp"
+version = "1.0.0"
+description = "Commercial drone / UAS compliance toolkit — UK CAA CAP 722, Open / Specific / Certified categories, A2 CofC + GVC + Operational Authorisation pilot competence, US FAA Part 107, EU 2019/947 + 2019/945, CAA SUA inspection prep. For Royal Mail, NHS drone logistics, Wing, Amazon Prime Air, Aerialscape. By MEOK AI Labs."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Nicholas Templeman", email = "nicholas@meok.ai" }]
+keywords = ["mcp", "uas", "drone", "caa", "cap-722", "faa-part-107", "easa-2019-947", "operational-authorisation", "a2-cofc", "gvc", "meok"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Office/Business :: Financial",
+]
+dependencies = ["mcp[cli]>=1.3.0"]
+
+[project.urls]
+Homepage = "https://haulage.app"
+Repository = "https://github.com/CSOAI-ORG/meok-uas-commercial-drone-mcp"
+
+[project.scripts]
+meok-uas-commercial-drone-mcp = "server:main"
+
+[tool.setuptools]
+py-modules = ["server"]

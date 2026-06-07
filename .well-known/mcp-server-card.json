@@ -1,0 +1,37 @@
+{
+  "name": "meok-uas-commercial-drone-mcp",
+  "title": "Meok Uas Commercial Drone Mcp",
+  "description": "Commercial drone / UAS compliance toolkit \u2014 UK CAA CAP 722, Open / Specific / Certified categories, A2 CofC + GVC + Operational Authorisation pilot competence, US FAA Part 107, EU 2019/947 + 2019/945, CAA SUA inspection prep. For Royal Mail, NHS drone logistics, Wing, Amazon Prime Air, Aerialscape. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_caa_operator_authorisation"
+    },
+    {
+      "name": "check_uas_open_category"
+    },
+    {
+      "name": "check_uas_specific_category"
+    },
+    {
+      "name": "check_uas_certified_category"
+    },
+    {
+      "name": "check_remote_pilot_competence"
+    },
+    {
+      "name": "check_far_part_107_us"
+    },
+    {
+      "name": "check_easa_uas_reg_2019_947"
+    },
+    {
+      "name": "prepare_caa_inspection_pack"
+    }
+  ]
+}
