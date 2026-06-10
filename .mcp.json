@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-uas-commercial-drone-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-uas-commercial-drone-mcp"
+      ]
+    }
+  }
+}
