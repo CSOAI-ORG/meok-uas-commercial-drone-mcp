@@ -63,7 +63,7 @@ pip install meok-uas-commercial-drone-mcp
 - **Pro** — £299/mo (multi-pilot dashboards + OSC drafting helper)
 - **Fleet** — £1,499/mo (fleet-grade, audit-export, SLA, NHS/Royal Mail tier)
 
-[Subscribe Pro → £299/mo](https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j) · [Talk to Nick](mailto:nicholas@meok.ai)
+[Subscribe Pro → £299/mo](https://buy.stripe.com/aFa7sNcgAdQS0ZT1Uc8k91t) · [Talk to Nick](mailto:nicholas@meok.ai)
 
 ## Regulatory basis
 

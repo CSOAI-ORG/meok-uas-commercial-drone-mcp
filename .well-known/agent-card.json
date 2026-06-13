@@ -1,0 +1,160 @@
+{
+  "name": "Meok Uas Commercial Drone Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-uas-commercial-drone-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "Commercial drone / UAS compliance toolkit — UK CAA CAP 722, Open / Specific / Certified categories, A2 CofC + GVC + Operational Authorisation pilot competence, US FAA Part 107, EU 2019/947 + 2019/945, CAA SUA inspection prep. For Royal Mail, NHS drone logistics, Wing, Amazon Prime Air, Aerialscape. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_caa_operator_authorisation",
+      "name": "Check Caa Operator Authorisation",
+      "description": "Check Caa Operator Authorisation — a tool of the meok-uas-commercial-drone-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_uas_open_category",
+      "name": "Check Uas Open Category",
+      "description": "Check Uas Open Category — a tool of the meok-uas-commercial-drone-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_uas_specific_category",
+      "name": "Check Uas Specific Category",
+      "description": "Check Uas Specific Category — a tool of the meok-uas-commercial-drone-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_uas_certified_category",
+      "name": "Check Uas Certified Category",
+      "description": "Check Uas Certified Category — a tool of the meok-uas-commercial-drone-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_remote_pilot_competence",
+      "name": "Check Remote Pilot Competence",
+      "description": "Check Remote Pilot Competence — a tool of the meok-uas-commercial-drone-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_far_part_107_us",
+      "name": "Check Far Part 107 Us",
+      "description": "Check Far Part 107 Us — a tool of the meok-uas-commercial-drone-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_easa_uas_reg_2019_947",
+      "name": "Check Easa Uas Reg 2019 947",
+      "description": "Check Easa Uas Reg 2019 947 — a tool of the meok-uas-commercial-drone-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "prepare_caa_inspection_pack",
+      "name": "Prepare Caa Inspection Pack",
+      "description": "Prepare Caa Inspection Pack — a tool of the meok-uas-commercial-drone-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-uas-commercial-drone-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
