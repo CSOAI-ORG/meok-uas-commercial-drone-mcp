@@ -46,7 +46,7 @@ fleet-wide compliance attestation.
 
 PRICING
 -------
-Free MIT self-host · £99/mo Starter · £299/mo Pro · £1,499/mo Fleet.
+No subscriptions and no tiers: pay per delivered job. See https://meok.ai/pricing. Source is MIT, free to self-host.
 
 REGULATORY BASIS
 ----------------
@@ -193,7 +193,7 @@ CERTIFIED_CATEGORY = {
 # UK pilot competence ladder
 UK_PILOT_COMPETENCE = {
     "flyer_id_test": "Free online test — required for all RC > 250g (annual)",
-    "operator_id": "£11.59/yr — required for operator",
+    "operator_id": "a per-job quote — required for operator",
     "a2_cofc": {
         "name": "A2 Certificate of Competency",
         "covers": "Open A2 subcategory — fly C2 close to people",
@@ -334,7 +334,7 @@ def check_caa_operator_authorisation(
     required_pathway = "Open"
 
     if not has_operator_id:
-        findings.append("CAA Operator ID MISSING — register at register-drones.caa.co.uk (£11.59/yr)")
+        findings.append("CAA Operator ID MISSING — register at register-drones.caa.co.uk (a per-job quote)")
     if not has_flyer_id:
         findings.append("CAA Flyer ID MISSING — pass free online test (annual)")
     if not insurance_ec_785_2004:
@@ -993,10 +993,10 @@ if __name__ == "__main__":
     main()
 
 
-# ── MEOK monetization layer (Stripe upgrade · PAYG · pricing) ──────────
-# Free tier is zero-config. Upgrade to Pro (unlimited) or pay-as-you-go per call.
+# ── MEOK pricing pointer (pay per delivered job; no subscriptions) ──────────
+# No tiers. Jobs are quoted individually at https://meok.ai/pricing.
 import os as _meok_os
-MEOK_STRIPE_UPGRADE = "https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j"  # Pro (unlimited)
+MEOK_STRIPE_UPGRADE = "https://meok.ai/pricing"  # Pro (unlimited)
 MEOK_PAYG_KEY = _meok_os.environ.get("MEOK_PAYG_KEY", "")  # set to enable PAYG (x402 / ~GBP0.05 per call)
 MEOK_PRICING = "https://meok.ai/pricing"
 

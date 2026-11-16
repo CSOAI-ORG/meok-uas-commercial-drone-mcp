@@ -56,14 +56,11 @@ pip install meok-uas-commercial-drone-mcp
 | `check_easa_uas_reg_2019_947` | EU 2019/947 + 2019/945. |
 | `prepare_caa_inspection_pack` | CAA SUA inspection — Ops Manual, pilot record, RA, insurance. |
 
-## Pricing
+## How MEOK charges
 
-- **Free** — MIT self-host
-- **Starter** — £99/mo (signed attestations + email support)
-- **Pro** — £299/mo (multi-pilot dashboards + OSC drafting helper)
-- **Fleet** — £1,499/mo (fleet-grade, audit-export, SLA, NHS/Royal Mail tier)
+MEOK has no subscriptions and no tiers. You pay per job, and only when the agreed artifact has been delivered to you. There is no public price list. See <https://meok.ai/pricing>.
 
-[Subscribe Pro → £299/mo](https://buy.stripe.com/aFa7sNcgAdQS0ZT1Uc8k91t) · [Talk to Nick](mailto:nicholas@meok.ai)
+This repository's source is MIT-licensed and free to self-host.
 
 ## Regulatory basis
 
